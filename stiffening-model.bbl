@@ -1,0 +1,170 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{abramowitch2016introduction}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=AS}{%
+         family={Abramowitch},
+         familyi={A\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=ED}{%
+         family={Easley},
+         familyi={E\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{ASED1}
+    \strng{fullhash}{ASED1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Biomechanics of the female pelvic floor}
+    \field{pages}{89\bibrangedash 107}
+    \field{title}{Introduction to Classical Mechanics}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Rub1}{online}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Gandelsman},
+         familyi={G\bibinitperiod},
+         given={Marina},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Strain Energy in Uniaxial Loads}
+    \verb{url}
+    \verb https://emweb.unl.edu/Mechanics-Pages/Marina-Gandelsman/strain.html
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{ngoepe2021evolving}{article}{}
+    \name{author}{4}{}{%
+      {{hash=NMN}{%
+         family={Ngoepe},
+         familyi={N\bibinitperiod},
+         given={Malebogo\bibnamedelima N},
+         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Cloete},
+         familyi={C\bibinitperiod},
+         given={Elsabe},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=vdBC}{%
+         prefix={van\bibnamedelima den},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Berg},
+         familyi={B\bibinitperiod},
+         given={Claire},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KNP}{%
+         family={Khumalo},
+         familyi={K\bibinitperiod},
+         given={Nonhlanhla\bibnamedelima P},
+         giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{NMN+1}
+    \strng{fullhash}{NMNCEBCvdKNP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{pages}{104394}
+    \field{title}{The evolving mechanical response of curly hair fibres subject
+  to fatigue testing}
+    \field{volume}{118}
+    \field{journaltitle}{Journal of the Mechanical Behavior of Biomedical
+  Materials}
+    \field{year}{2021}
+  \endentry
+
+  \entry{susilo2016collagen}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SME}{%
+         family={Susilo},
+         familyi={S\bibinitperiod},
+         given={Monica\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PJA}{%
+         family={Paten},
+         familyi={P\bibinitperiod},
+         given={Jeffrey\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SEA}{%
+         family={Sander},
+         familyi={S\bibinitperiod},
+         given={Edward\bibnamedelima A},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NTD}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Thao\bibnamedelima D},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RJW}{%
+         family={Ruberti},
+         familyi={R\bibinitperiod},
+         given={Jeffrey\bibnamedelima W},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Royal Society}%
+    }
+    \strng{namehash}{SME+1}
+    \strng{fullhash}{SMEPJASEANTDRJW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{1}
+    \field{pages}{20150088}
+    \field{title}{Collagen network strengthening following cyclic tensile
+  loading}
+    \field{volume}{6}
+    \field{journaltitle}{Interface focus}
+    \field{year}{2016}
+  \endentry
+\enddatalist
+\endinput

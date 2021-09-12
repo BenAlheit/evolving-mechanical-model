@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{A preloaded compound spring model}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{A compound 1D mechanical device with a single preloaded spring}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Thermodynamic considerations}{subsection.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.2}{A compound 1D mechanical device with n preloaded springs}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Infinite preloaded springs}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Changing the shape of the loading curve: redistribution of the preloaded springs}{subsection.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{A compound preloaded spring device with evolving latches}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Thermodynamic considerations}{subsection.2.3}% 9
+\BOOKMARK [1][-]{section.3}{Conclusion}{}% 10
+\BOOKMARK [1][-]{section.4}{Possible extensions to this work}{}% 11

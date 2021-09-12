@@ -1,0 +1,1247 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.28)  12 SEP 2021 20:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**stiffening-model.tex
+(./stiffening-model.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\@input{package-style-defs.aux}
+\openout2 = `package-style-defs.aux'.
+
+(./package-style-defs.tex
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count87
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks16
+\c@algorithm=\count88
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count89
+\c@ALG@rem=\count90
+\c@ALG@nested=\count91
+\ALG@tlm=\skip43
+\ALG@thistlm=\skip44
+\c@ALG@Lnr=\count92
+\c@ALG@blocknr=\count93
+\c@ALG@storecount=\count94
+\c@ALG@tmpcounter=\count95
+\ALG@tmplength=\skip45
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen103
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks18
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks19
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks20
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip49
+\@affilsep=\skip50
+\c@Maxaffil=\count108
+\c@authors=\count109
+\c@affil=\count110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count111
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count112
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count113
+\decimalpart=\count114
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count115
+\c@listtotal=\count116
+\c@listcount=\count117
+\c@liststart=\count118
+\c@liststop=\count119
+\c@citecount=\count120
+\c@citetotal=\count121
+\c@multicitecount=\count122
+\c@multicitetotal=\count123
+\c@instcount=\count124
+\c@maxnames=\count125
+\c@minnames=\count126
+\c@maxitems=\count127
+\c@minitems=\count128
+\c@citecounter=\count129
+\c@savedcitecounter=\count130
+\c@uniquelist=\count131
+\c@uniquename=\count132
+\c@refsection=\count133
+\c@refsegment=\count134
+\c@maxextratitle=\count135
+\c@maxextratitleyear=\count136
+\c@maxextradate=\count137
+\c@maxextraalpha=\count138
+\c@abbrvpenalty=\count139
+\c@highnamepenalty=\count140
+\c@lownamepenalty=\count141
+\c@maxparens=\count142
+\c@parenlevel=\count143
+\blx@tempcnta=\count144
+\blx@tempcntb=\count145
+\blx@tempcntc=\count146
+\blx@maxsection=\count147
+\blx@maxsegment@0=\count148
+\blx@notetype=\count149
+\blx@parenlevel@text=\count150
+\blx@parenlevel@foot=\count151
+\blx@sectionciteorder@0=\count152
+\labelnumberwidth=\skip51
+\labelalphawidth=\skip52
+\biblabelsep=\skip53
+\bibitemsep=\skip54
+\bibnamesep=\skip55
+\bibinitsep=\skip56
+\bibparsep=\skip57
+\bibhang=\skip58
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count153
+\c@maxcomprange=\count154
+\c@mincompwidth=\count155
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count156
+\c@savedafterword=\count157
+\c@annotator=\count158
+\c@savedannotator=\count159
+\c@author=\count160
+\c@savedauthor=\count161
+\c@bookauthor=\count162
+\c@savedbookauthor=\count163
+\c@commentator=\count164
+\c@savedcommentator=\count165
+\c@editor=\count166
+\c@savededitor=\count167
+\c@editora=\count168
+\c@savededitora=\count169
+\c@editorb=\count170
+\c@savededitorb=\count171
+\c@editorc=\count172
+\c@savededitorc=\count173
+\c@foreword=\count174
+\c@savedforeword=\count175
+\c@holder=\count176
+\c@savedholder=\count177
+\c@introduction=\count178
+\c@savedintroduction=\count179
+\c@namea=\count180
+\c@savednamea=\count181
+\c@nameb=\count182
+\c@savednameb=\count183
+\c@namec=\count184
+\c@savednamec=\count185
+\c@translator=\count186
+\c@savedtranslator=\count187
+\c@shortauthor=\count188
+\c@savedshortauthor=\count189
+\c@shorteditor=\count190
+\c@savedshorteditor=\count191
+\c@labelname=\count192
+\c@savedlabelname=\count193
+\c@institution=\count194
+\c@savedinstitution=\count195
+\c@lista=\count196
+\c@savedlista=\count197
+\c@listb=\count198
+\c@savedlistb=\count199
+\c@listc=\count266
+\c@savedlistc=\count267
+\c@listd=\count268
+\c@savedlistd=\count269
+\c@liste=\count270
+\c@savedliste=\count271
+\c@listf=\count272
+\c@savedlistf=\count273
+\c@location=\count274
+\c@savedlocation=\count275
+\c@organization=\count276
+\c@savedorganization=\count277
+\c@origlocation=\count278
+\c@savedoriglocation=\count279
+\c@origpublisher=\count280
+\c@savedorigpublisher=\count281
+\c@publisher=\count282
+\c@savedpublisher=\count283
+\c@language=\count284
+\c@savedlanguage=\count285
+\c@origlanguage=\count286
+\c@savedoriglanguage=\count287
+\c@pageref=\count288
+\c@savedpageref=\count289
+\shorthandwidth=\skip59
+\shortjournalwidth=\skip60
+\shortserieswidth=\skip61
+\shorttitlewidth=\skip62
+\shortauthorwidth=\skip63
+\shorteditorwidth=\skip64
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count290
+\c@textcitetotal=\count291
+\c@textcitemaxnames=\count292
+\c@biburlnumpenalty=\count293
+\c@biburlucpenalty=\count294
+\c@biburllcpenalty=\count295
+\c@smartand=\count296
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count297
+\c@bbx:relatedtotal=\count298
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+
+Package biblatex Warning: 'firstinits' option is deprecated.
+(biblatex)                Please use 'giveninits' instead.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count299
+\c@Blindtext=\count300
+\c@blind@countparstart=\count301
+\blind@countxx=\count302
+\blindtext@numBlindtext=\count303
+\blind@countyy=\count304
+\c@blindlist=\count305
+\c@blindlistlevel=\count306
+\c@blindlist@level=\count307
+\blind@listitem=\count308
+\c@blind@listcount=\count309
+\c@blind@levelcount=\count310
+\blind@mathformula=\count311
+\blind@Mathformula=\count312
+\c@blind@randomcount=\count313
+\c@blind@randommax=\count314
+\c@blind@pangramcount=\count315
+\c@blind@pangrammax=\count316
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count317
+\Gm@cntv=\count318
+\c@Gm@tempcnt=\count319
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen122
+\Hy@linkcounter=\count320
+\Hy@pagecounter=\count321
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count322
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count323
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen123
+\Fld@menulength=\count324
+\Field@Width=\dimen124
+\Fld@charsize=\dimen125
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count325
+\c@Item=\count326
+\c@Hfootnote=\count327
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count328
+\c@bookmark@seq@number=\count329
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen126
+\nom@tempdim=\dimen127
+\nomitemsep=\skip66
+)
+\@nomenclaturefile=\write5
+\openout5 = `stiffening-model.nlo'.
+
+
+Writing nomenclature file stiffening-model.nlo
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@tempdima=\dimen131
+\caption@indent=\dimen132
+\caption@parindent=\dimen133
+\caption@hangindent=\dimen134
+)
+\c@ContinuedFloat=\count330
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count331
+\c@subtable=\count332
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count333
+\@quotereset=\count334
+
+(./stiffening-model.aux)
+\openout1 = `stiffening-model.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+Package biblatex Info: Input encoding 'ascii' specified.
+Package biblatex Info: Data encoding 'ascii' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `stiffening-model-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'stiffening-model.bbl' found.
+ (./stiffening-model.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Rub1':
+(biblatex)                - Invalid format of field 'urldate'.
+
+)
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count335
+\scratchdimen=\dimen135
+\scratchbox=\box30
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen136
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=498.66258pt
+* \textheight=679.33757pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 23.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count341
+)
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
+
+(./stiffening-model.out) (./stiffening-model.out)
+\@outlinefile=\write6
+\openout6 = `stiffening-model.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+<./lit-figures/hair-evolution.jpg, id=49, 241.81541pt x 159.28308pt>
+File: ./lit-figures/hair-evolution.jpg Graphic file (type jpg)
+<use ./lit-figures/hair-evolution.jpg>
+Package pdftex.def Info: ./lit-figures/hair-evolution.jpg  used on input line 3
+2.
+(pdftex.def)             Requested size: 299.20059pt x 197.08363pt.
+<./lit-figures/plastic-dissipation.pdf, id=53, 324.46219pt x 277.035pt>
+File: ./lit-figures/plastic-dissipation.pdf Graphic file (type pdf)
+<use ./lit-figures/plastic-dissipation.pdf>
+Package pdftex.def Info: ./lit-figures/plastic-dissipation.pdf  used on input l
+ine 42.
+(pdftex.def)             Requested size: 239.3559pt x 204.37283pt.
+<./lit-figures/viscous-dissipation.jpg, id=54, 241.75275pt x 196.98372pt>
+File: ./lit-figures/viscous-dissipation.jpg Graphic file (type jpg)
+<use ./lit-figures/viscous-dissipation.jpg>
+Package pdftex.def Info: ./lit-figures/viscous-dissipation.jpg  used on input l
+ine 42.
+(pdftex.def)             Requested size: 239.3559pt x 195.02948pt.
+ [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<./lit-figures/collagen-stiffening.jpg, id=85, 298.9569pt x 308.352pt>
+File: ./lit-figures/collagen-stiffening.jpg Graphic file (type jpg)
+<use ./lit-figures/collagen-stiffening.jpg>
+Package pdftex.def Info: ./lit-figures/collagen-stiffening.jpg  used on input l
+ine 50.
+(pdftex.def)             Requested size: 349.06227pt x 360.0505pt.
+<./inkscape-figures/single-spring-1.pdf, id=89, 238.93259pt x 186.51057pt>
+File: ./inkscape-figures/single-spring-1.pdf Graphic file (type pdf)
+<use ./inkscape-figures/single-spring-1.pdf>
+Package pdftex.def Info: ./inkscape-figures/single-spring-1.pdf  used on input 
+line 60.
+(pdftex.def)             Requested size: 149.6003pt x 116.78226pt.
+<./inkscape-figures/single-spring-2.pdf, id=90, 238.93256pt x 186.51059pt>
+File: ./inkscape-figures/single-spring-2.pdf Graphic file (type pdf)
+<use ./inkscape-figures/single-spring-2.pdf>
+Package pdftex.def Info: ./inkscape-figures/single-spring-2.pdf  used on input 
+line 60.
+(pdftex.def)             Requested size: 149.6003pt x 116.78226pt.
+<./inkscape-figures/single-spring-3.pdf, id=91, 238.93257pt x 186.51057pt>
+File: ./inkscape-figures/single-spring-3.pdf Graphic file (type pdf)
+<use ./inkscape-figures/single-spring-3.pdf>
+Package pdftex.def Info: ./inkscape-figures/single-spring-3.pdf  used on input 
+line 60.
+(pdftex.def)             Requested size: 149.6003pt x 116.78226pt.
+<./inkscape-figures/single-spring-4.pdf, id=92, 269.16183pt x 186.51057pt>
+File: ./inkscape-figures/single-spring-4.pdf Graphic file (type pdf)
+<use ./inkscape-figures/single-spring-4.pdf>
+Package pdftex.def Info: ./inkscape-figures/single-spring-4.pdf  used on input 
+line 60.
+(pdftex.def)             Requested size: 149.6003pt x 103.66257pt.
+<./inkscape-figures/single-spring-5.pdf, id=93, 238.93256pt x 186.51059pt>
+File: ./inkscape-figures/single-spring-5.pdf Graphic file (type pdf)
+<use ./inkscape-figures/single-spring-5.pdf>
+Package pdftex.def Info: ./inkscape-figures/single-spring-5.pdf  used on input 
+line 60.
+(pdftex.def)             Requested size: 149.6003pt x 116.78226pt.
+ [2 <./lit-figures/hair-evolution.jpg> <./lit-figures/plastic-dissipation.pdf> 
+<./lit-figures/viscous-dissipation.jpg>]
+[3 <./lit-figures/collagen-stiffening.jpg>]
+<./code/figures/single-spring-1-cycle.pdf, id=121, 462.52798pt x 346.89601pt>
+File: ./code/figures/single-spring-1-cycle.pdf Graphic file (type pdf)
+<use ./code/figures/single-spring-1-cycle.pdf>
+Package pdftex.def Info: ./code/figures/single-spring-1-cycle.pdf  used on inpu
+t line 86.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/single-spring-2-cycles.pdf, id=122, 462.52798pt x 346.89601pt>
+File: ./code/figures/single-spring-2-cycles.pdf Graphic file (type pdf)
+<use ./code/figures/single-spring-2-cycles.pdf>
+Package pdftex.def Info: ./code/figures/single-spring-2-cycles.pdf  used on inp
+ut line 86.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+ [4 <./inkscape-figures/single-spring-1.pdf> <./inkscape-figures/single-spring-
+2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/single-spring-2.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/single-spring-3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/single-spring-3.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/single-spring-4.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/single-spring-4.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/single-spring-5.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/single-spring-5.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>] [5 <./code/figures/single-spring-1-cycle.pdf> <./code/figures/single-spring-
+2-cycles.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/single-spring-2-cycles.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 146.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 146.
+
+<./inkscape-figures/double-spring-1.pdf, id=199, 206.09009pt x 177.7702pt>
+File: ./inkscape-figures/double-spring-1.pdf Graphic file (type pdf)
+<use ./inkscape-figures/double-spring-1.pdf>
+Package pdftex.def Info: ./inkscape-figures/double-spring-1.pdf  used on input 
+line 156.
+(pdftex.def)             Requested size: 154.58418pt x 133.34901pt.
+<./inkscape-figures/double-spring-2.pdf, id=200, 191.03383pt x 213.15242pt>
+File: ./inkscape-figures/double-spring-2.pdf Graphic file (type pdf)
+<use ./inkscape-figures/double-spring-2.pdf>
+Package pdftex.def Info: ./inkscape-figures/double-spring-2.pdf  used on input 
+line 156.
+(pdftex.def)             Requested size: 154.58418pt x 172.48337pt.
+<./inkscape-figures/double-spring-3.pdf, id=201, 194.04509pt x 213.15242pt>
+File: ./inkscape-figures/double-spring-3.pdf Graphic file (type pdf)
+<use ./inkscape-figures/double-spring-3.pdf>
+Package pdftex.def Info: ./inkscape-figures/double-spring-3.pdf  used on input 
+line 156.
+(pdftex.def)             Requested size: 154.58418pt x 169.81638pt.
+<./inkscape-figures/double-spring-4.pdf, id=202, 198.40456pt x 213.15242pt>
+File: ./inkscape-figures/double-spring-4.pdf Graphic file (type pdf)
+<use ./inkscape-figures/double-spring-4.pdf>
+Package pdftex.def Info: ./inkscape-figures/double-spring-4.pdf  used on input 
+line 156.
+(pdftex.def)             Requested size: 154.58418pt x 166.08583pt.
+<./inkscape-figures/double-spring-5.pdf, id=203, 214.96643pt x 213.15244pt>
+File: ./inkscape-figures/double-spring-5.pdf Graphic file (type pdf)
+<use ./inkscape-figures/double-spring-5.pdf>
+Package pdftex.def Info: ./inkscape-figures/double-spring-5.pdf  used on input 
+line 156.
+(pdftex.def)             Requested size: 154.58418pt x 153.28749pt.
+<./inkscape-figures/double-spring-6.pdf, id=204, 245.07893pt x 213.15245pt>
+File: ./inkscape-figures/double-spring-6.pdf Graphic file (type pdf)
+<use ./inkscape-figures/double-spring-6.pdf>
+Package pdftex.def Info: ./inkscape-figures/double-spring-6.pdf  used on input 
+line 156.
+(pdftex.def)             Requested size: 154.58418pt x 134.4461pt.
+<./inkscape-figures/double-spring-7.pdf, id=205, 234.69699pt x 213.15245pt>
+File: ./inkscape-figures/double-spring-7.pdf Graphic file (type pdf)
+<use ./inkscape-figures/double-spring-7.pdf>
+Package pdftex.def Info: ./inkscape-figures/double-spring-7.pdf  used on input 
+line 156.
+(pdftex.def)             Requested size: 159.57567pt x 144.93198pt.
+<./code/figures/spring-1.pdf, id=217, 462.52798pt x 346.89601pt>
+File: ./code/figures/spring-1.pdf Graphic file (type pdf)
+<use ./code/figures/spring-1.pdf>
+Package pdftex.def Info: ./code/figures/spring-1.pdf  used on input line 181.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/spring-2.pdf, id=218, 462.52798pt x 346.89601pt>
+File: ./code/figures/spring-2.pdf Graphic file (type pdf)
+<use ./code/figures/spring-2.pdf>
+Package pdftex.def Info: ./code/figures/spring-2.pdf  used on input line 181.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/spring-10.pdf, id=219, 462.52798pt x 346.89601pt>
+File: ./code/figures/spring-10.pdf Graphic file (type pdf)
+<use ./code/figures/spring-10.pdf>
+Package pdftex.def Info: ./code/figures/spring-10.pdf  used on input line 181.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/spring-1000.pdf, id=220, 462.52798pt x 346.89601pt>
+File: ./code/figures/spring-1000.pdf Graphic file (type pdf)
+<use ./code/figures/spring-1000.pdf>
+Package pdftex.def Info: ./code/figures/spring-1000.pdf  used on input line 181
+.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+[6] [7 <./inkscape-figures/double-spring-1.pdf> <./inkscape-figures/double-spri
+ng-2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/double-spring-2.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/double-spring-3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/double-spring-3.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/double-spring-4.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/double-spring-4.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/double-spring-5.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/double-spring-5.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/double-spring-6.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/double-spring-6.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/double-spring-7.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/double-spring-7.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>] [8 <./code/figures/spring-1.pdf> <./code/figures/spring-2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/spring-2.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./code/figures/spring-10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/spring-10.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./code/figures/spring-1000.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/spring-1000.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+<./code/figures/a-02-n-2.pdf, id=320, 462.52798pt x 346.89601pt>
+File: ./code/figures/a-02-n-2.pdf Graphic file (type pdf)
+<use ./code/figures/a-02-n-2.pdf>
+Package pdftex.def Info: ./code/figures/a-02-n-2.pdf  used on input line 228.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/a-02-n-5.pdf, id=321, 462.52798pt x 346.89601pt>
+File: ./code/figures/a-02-n-5.pdf Graphic file (type pdf)
+<use ./code/figures/a-02-n-5.pdf>
+Package pdftex.def Info: ./code/figures/a-02-n-5.pdf  used on input line 228.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/a-02-n-10.pdf, id=322, 462.52798pt x 346.89601pt>
+File: ./code/figures/a-02-n-10.pdf Graphic file (type pdf)
+<use ./code/figures/a-02-n-10.pdf>
+Package pdftex.def Info: ./code/figures/a-02-n-10.pdf  used on input line 228.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/a-02-n-1000.pdf, id=323, 462.52798pt x 346.89601pt>
+File: ./code/figures/a-02-n-1000.pdf Graphic file (type pdf)
+<use ./code/figures/a-02-n-1000.pdf>
+Package pdftex.def Info: ./code/figures/a-02-n-1000.pdf  used on input line 228
+.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/a-1-n-1000.pdf, id=329, 462.52798pt x 346.89601pt>
+File: ./code/figures/a-1-n-1000.pdf Graphic file (type pdf)
+<use ./code/figures/a-1-n-1000.pdf>
+Package pdftex.def Info: ./code/figures/a-1-n-1000.pdf  used on input line 234.
+
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/a-05-n-1000.pdf, id=330, 462.52798pt x 346.89601pt>
+File: ./code/figures/a-05-n-1000.pdf Graphic file (type pdf)
+<use ./code/figures/a-05-n-1000.pdf>
+Package pdftex.def Info: ./code/figures/a-05-n-1000.pdf  used on input line 234
+.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/a-01-n-1000.pdf, id=331, 462.52798pt x 346.89601pt>
+File: ./code/figures/a-01-n-1000.pdf Graphic file (type pdf)
+<use ./code/figures/a-01-n-1000.pdf>
+Package pdftex.def Info: ./code/figures/a-01-n-1000.pdf  used on input line 234
+.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/a-005-n-1000.pdf, id=332, 462.52798pt x 346.89601pt>
+File: ./code/figures/a-005-n-1000.pdf Graphic file (type pdf)
+<use ./code/figures/a-005-n-1000.pdf>
+Package pdftex.def Info: ./code/figures/a-005-n-1000.pdf  used on input line 23
+4.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+ [9]
+<./inkscape-figures/evolving-1.pdf, id=343, 212.35275pt x 183.96704pt>
+File: ./inkscape-figures/evolving-1.pdf Graphic file (type pdf)
+<use ./inkscape-figures/evolving-1.pdf>
+Package pdftex.def Info: ./inkscape-figures/evolving-1.pdf  used on input line 
+242.
+(pdftex.def)             Requested size: 154.58418pt x 133.92427pt.
+<./inkscape-figures/evolving-2.pdf, id=344, 213.85837pt x 180.20299pt>
+File: ./inkscape-figures/evolving-2.pdf Graphic file (type pdf)
+<use ./inkscape-figures/evolving-2.pdf>
+Package pdftex.def Info: ./inkscape-figures/evolving-2.pdf  used on input line 
+242.
+(pdftex.def)             Requested size: 154.58418pt x 130.26299pt.
+<./inkscape-figures/evolving-3.pdf, id=345, 212.35275pt x 182.44476pt>
+File: ./inkscape-figures/evolving-3.pdf Graphic file (type pdf)
+<use ./inkscape-figures/evolving-3.pdf>
+Package pdftex.def Info: ./inkscape-figures/evolving-3.pdf  used on input line 
+242.
+(pdftex.def)             Requested size: 154.58418pt x 132.8161pt.
+<./inkscape-figures/evolving-4.pdf, id=346, 222.49455pt x 179.18289pt>
+File: ./inkscape-figures/evolving-4.pdf Graphic file (type pdf)
+<use ./inkscape-figures/evolving-4.pdf>
+Package pdftex.def Info: ./inkscape-figures/evolving-4.pdf  used on input line 
+242.
+(pdftex.def)             Requested size: 154.58418pt x 124.49756pt.
+<./inkscape-figures/evolving-5.pdf, id=347, 209.34149pt x 181.35909pt>
+File: ./inkscape-figures/evolving-5.pdf Graphic file (type pdf)
+<use ./inkscape-figures/evolving-5.pdf>
+Package pdftex.def Info: ./inkscape-figures/evolving-5.pdf  used on input line 
+242.
+(pdftex.def)             Requested size: 154.58418pt x 133.92688pt.
+<./inkscape-figures/evolving-6.pdf, id=348, 213.85837pt x 181.89682pt>
+File: ./inkscape-figures/evolving-6.pdf Graphic file (type pdf)
+<use ./inkscape-figures/evolving-6.pdf>
+Package pdftex.def Info: ./inkscape-figures/evolving-6.pdf  used on input line 
+242.
+(pdftex.def)             Requested size: 154.58418pt x 131.4874pt.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 247.
+ [10 <./code/figures/a-02-n-2.pdf> <./code/figures/a-02-n-5.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/a-02-n-5.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./code/figures/a-02-n-10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/a-02-n-10.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./code/figures/a-02-n-1000.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/a-02-n-1000.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] [11 <./code/figures/a-1-n-1000.pdf> <./code/figures/a-05-n-1000.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/a-05-n-1000.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./code/figures/a-01-n-1000.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/a-01-n-1000.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./code/figures/a-005-n-1000.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/a-005-n-1000.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [12 <./inkscape-figures/evolving-1.pdf> <./inkscape-figures/evolving-2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/evolving-2.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/evolving-3.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/evolving-3.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/evolving-4.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/evolving-4.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/evolving-5.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/evolving-5.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./inkscape-figures/evolving-6.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./inkscape-figures/evolving-6.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>]
+<./code/figures/es.pdf, id=498, 462.52798pt x 346.89601pt>
+File: ./code/figures/es.pdf Graphic file (type pdf)
+<use ./code/figures/es.pdf>
+Package pdftex.def Info: ./code/figures/es.pdf  used on input line 300.
+(pdftex.def)             Requested size: 249.33128pt x 186.99817pt.
+<./code/figures/temp-evolution-1.pdf, id=502, 462.52798pt x 346.89601pt>
+File: ./code/figures/temp-evolution-1.pdf Graphic file (type pdf)
+<use ./code/figures/temp-evolution-1.pdf>
+Package pdftex.def Info: ./code/figures/temp-evolution-1.pdf  used on input lin
+e 305.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/temp-evolution-2.pdf, id=503, 462.52798pt x 346.89601pt>
+File: ./code/figures/temp-evolution-2.pdf Graphic file (type pdf)
+<use ./code/figures/temp-evolution-2.pdf>
+Package pdftex.def Info: ./code/figures/temp-evolution-2.pdf  used on input lin
+e 305.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/temp-evolution-10.pdf, id=504, 462.52798pt x 346.89601pt>
+File: ./code/figures/temp-evolution-10.pdf Graphic file (type pdf)
+<use ./code/figures/temp-evolution-10.pdf>
+Package pdftex.def Info: ./code/figures/temp-evolution-10.pdf  used on input li
+ne 305.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/temp-evolution-1000.pdf, id=505, 462.52798pt x 346.89601pt>
+File: ./code/figures/temp-evolution-1000.pdf Graphic file (type pdf)
+<use ./code/figures/temp-evolution-1000.pdf>
+Package pdftex.def Info: ./code/figures/temp-evolution-1000.pdf  used on input 
+line 305.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/temp-evolution-1000-cycles.pdf, id=507, 462.52798pt x 346.89601
+pt>
+File: ./code/figures/temp-evolution-1000-cycles.pdf Graphic file (type pdf)
+<use ./code/figures/temp-evolution-1000-cycles.pdf>
+Package pdftex.def Info: ./code/figures/temp-evolution-1000-cycles.pdf  used on
+ input line 319.
+(pdftex.def)             Requested size: 249.33128pt x 186.99817pt.
+ [13 <./code/figures/es.pdf>] [14 <./code/figures/temp-evolution-1.pdf> <./code
+/figures/temp-evolution-2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/temp-evolution-2.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./code/figures/temp-evolution-10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/temp-evolution-10.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./code/figures/temp-evolution-1000.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/temp-evolution-1000.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<./code/figures/dissipation.pdf, id=615, 462.52798pt x 346.89601pt>
+File: ./code/figures/dissipation.pdf Graphic file (type pdf)
+<use ./code/figures/dissipation.pdf>
+Package pdftex.def Info: ./code/figures/dissipation.pdf  used on input line 373
+.
+(pdftex.def)             Requested size: 249.33128pt x 186.99817pt.
+ [15 <./code/figures/temp-evolution-1000-cycles.pdf>]
+<./code/figures/disp-1.pdf, id=648, 462.52798pt x 346.89601pt>
+File: ./code/figures/disp-1.pdf Graphic file (type pdf)
+<use ./code/figures/disp-1.pdf>
+Package pdftex.def Info: ./code/figures/disp-1.pdf  used on input line 386.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/disp-2.pdf, id=649, 462.52798pt x 346.89601pt>
+File: ./code/figures/disp-2.pdf Graphic file (type pdf)
+<use ./code/figures/disp-2.pdf>
+Package pdftex.def Info: ./code/figures/disp-2.pdf  used on input line 386.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/disp-10.pdf, id=650, 462.52798pt x 346.89601pt>
+File: ./code/figures/disp-10.pdf Graphic file (type pdf)
+<use ./code/figures/disp-10.pdf>
+Package pdftex.def Info: ./code/figures/disp-10.pdf  used on input line 386.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/disp-1000.pdf, id=651, 462.52798pt x 346.89601pt>
+File: ./code/figures/disp-1000.pdf Graphic file (type pdf)
+<use ./code/figures/disp-1000.pdf>
+Package pdftex.def Info: ./code/figures/disp-1000.pdf  used on input line 386.
+(pdftex.def)             Requested size: 239.3559pt x 179.51888pt.
+<./code/figures/disp-1000-cycles.pdf, id=654, 462.52798pt x 346.89601pt>
+File: ./code/figures/disp-1000-cycles.pdf Graphic file (type pdf)
+<use ./code/figures/disp-1000-cycles.pdf>
+Package pdftex.def Info: ./code/figures/disp-1000-cycles.pdf  used on input lin
+e 388.
+(pdftex.def)             Requested size: 249.33128pt x 186.99817pt.
+ [16 <./code/figures/dissipation.pdf>] [17 <./code/figures/disp-1.pdf> <./code/
+figures/disp-2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/disp-2.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./code/figures/disp-10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/disp-10.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./code/figures/disp-1000.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./code/figures/disp-1000.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>] [18 <./code/figures/disp-1000-cycles.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
+ (./stiffening-model.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
+Package rerunfilecheck Info: File `stiffening-model.out' has not changed.
+(rerunfilecheck)             Checksum: 6BCC092F84EFC52B39F664C4F3A11B45;948.
+Package logreq Info: Writing requests to 'stiffening-model.run.xml'.
+\openout1 = `stiffening-model.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15455 strings out of 492982
+ 259319 string characters out of 6134896
+ 542212 words of memory out of 5000000
+ 18645 multiletter control sequences out of 15000+600000
+ 20389 words of font info for 75 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 46i,14n,53p,1459b,1402s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on stiffening-model.pdf (19 pages, 1175702 bytes).
+PDF statistics:
+ 888 PDF objects out of 1000 (max. 8388607)
+ 777 compressed objects within 8 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
+

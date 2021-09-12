@@ -1,0 +1,218 @@
+
+%% Packages
+\usepackage{algorithm}% http://ctan.org/pkg/algorithm
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+\usepackage{amsmath} % gathered
+\usepackage{amssymb} % mathbb
+\usepackage{authblk}
+\usepackage[doi=false,isbn=false,url=false,eprint=false, backend=bibtex, maxbibnames=99,firstinits=true]{biblatex}
+\usepackage{blindtext}
+\usepackage{bm} % mathbb
+\usepackage{color}
+\usepackage{float}
+\usepackage[margin=0.8in,]{geometry} % Make margins 0.8in inch
+\linespread{1.25} % Use 1.5 linespacing (\linespread{x} standard is 1.2, 1.2*x = 1.5 => x = 1.25)
+\usepackage{graphicx} % Include images
+\usepackage{graphics}
+\usepackage{hyperref} % Use hpyerlinks
+\usepackage{nomencl}
+\makenomenclature
+\usepackage{etoolbox}
+\renewcommand\nomgroup[1]{%
+	\item[\bfseries
+	\ifstrequal{#1}{P}{Physics constants}{%
+		\ifstrequal{#1}{N}{Number sets}{%
+			\ifstrequal{#1}{O}{Other symbols}{}}}%
+	]}
+\usepackage{subcaption} 
+
+
+
+
+
+%% Defs
+\renewcommand\Affilfont{\fontsize{9}{10.8}\itshape}
+\renewcommand{\d}{\text{d}}
+
+\newcommand{\tr}{\text{tr}}
+\newcommand{\der}[2]{\dfrac{\text{d} #1}{\text{d} #2}}
+\newcommand{\pder}[2]{\dfrac{\partial #1}{\partial #2}}
+\newcommand{\sig}{\bm{\sigma}}
+\newcommand{\bsig}{\bar{\bm{\sigma}}}
+\newcommand{\hsig}{\hat{\bm{\sigma}}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\beps}{\bar{\bm{\varepsilon}}}
+\newcommand{\heps}{\hat{\bm{\varepsilon}}}
+\newcommand{\Eeff}{E_{\text{eff}}}
+\newcommand{\red}[1]{{\color{red}#1}}
+
+
+
+\newcommand{\singlefig}[4]{
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=#1\linewidth]{#2}
+		\caption{#3}
+		\label{fig:#4}
+	\end{figure}
+}
+
+\newcommand{\doublefig}[4]{
+	\begin{figure}[!htb]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\centering 
+			\includegraphics[width=\linewidth]{#1} 
+			\caption{}
+		\end{subfigure}\hfill
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\linewidth]{#2}
+			\caption{}
+		\end{subfigure}
+		
+		\caption{#3}
+		\label{fig:#4}
+	\end{figure}
+}
+
+\newcommand{\quadfig}[6]{
+	\begin{figure}[!htb]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\centering 
+			\includegraphics[width=\linewidth]{#1} 
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\linewidth]{#2}
+			\caption{}
+		\end{subfigure}
+		
+		\begin{subfigure}{0.48\textwidth}
+			\centering 
+			\includegraphics[width=\linewidth]{#3} 
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\linewidth]{#4}
+			\caption{}
+		\end{subfigure}
+		
+		\caption{#5}
+		\label{fig:#6}
+	\end{figure}
+}
+
+
+\newcommand{\quinfig}[8]{
+	\begin{figure}[!htb]
+		\centering
+		\begin{subfigure}{#8\textwidth}
+			\centering 
+			\includegraphics[width=\linewidth]{#1} 
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{#8\textwidth}
+			\includegraphics[width=\linewidth]{#2}
+			\caption{}
+		\end{subfigure}
+		
+		\begin{subfigure}{#8\textwidth}
+			\centering 
+			\includegraphics[width=\linewidth]{#3} 
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{#8\textwidth}
+			\includegraphics[width=\linewidth]{#4}
+			\caption{}
+		\end{subfigure}
+		
+		\begin{subfigure}{#8\textwidth}
+			\includegraphics[width=\linewidth]{#5}
+			\caption{}
+		\end{subfigure}
+		
+		\caption{#6}
+		\label{fig:#7}
+	\end{figure}
+}
+
+\newcommand{\hexfig}[8]{
+	\begin{figure}[!htb]
+		\centering
+		\begin{subfigure}{0.31\textwidth}
+			\centering 
+			\includegraphics[width=\linewidth]{#1} 
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.31\textwidth}
+			\includegraphics[width=\linewidth]{#2}
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.31\textwidth}
+			\includegraphics[width=\linewidth]{#3}
+			\caption{}
+		\end{subfigure}
+		
+		\begin{subfigure}{0.31\textwidth}
+			\centering 
+			\includegraphics[width=\linewidth]{#4} 
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.31\textwidth}
+			\includegraphics[width=\linewidth]{#5}
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.31\textwidth}
+			\includegraphics[width=\linewidth]{#6}
+			\caption{}
+		\end{subfigure}
+		
+		\caption{#7}
+		\label{fig:#8}
+	\end{figure}
+}
+
+
+\newcommand{\heptfig}[9]{
+	\begin{figure}[!htb]
+		\centering
+		\begin{subfigure}{0.31\textwidth}
+			\centering 
+			\includegraphics[width=\linewidth]{#1} 
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.31\textwidth}
+			\includegraphics[width=\linewidth]{#2}
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.31\textwidth}
+			\includegraphics[width=\linewidth]{#3}
+			\caption{}
+		\end{subfigure}
+		
+		\begin{subfigure}{0.31\textwidth}
+			\centering 
+			\includegraphics[width=\linewidth]{#4} 
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.31\textwidth}
+			\includegraphics[width=\linewidth]{#5}
+			\caption{}
+		\end{subfigure}\hfil
+		\begin{subfigure}{0.31\textwidth}
+			\includegraphics[width=\linewidth]{#6}
+			\caption{}
+		\end{subfigure}
+		
+		
+		\begin{subfigure}{0.32\textwidth}
+			\includegraphics[width=\linewidth]{#7}
+			\caption{}
+		\end{subfigure}
+		\caption{#8}
+		\label{fig:#9}
+	\end{figure}
+}
+
+
